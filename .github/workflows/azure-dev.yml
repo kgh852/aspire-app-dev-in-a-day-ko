@@ -23,9 +23,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      AZURE_CLIENT_ID: ${{ Hackers Ground }}
+      AZURE_CLIENT_ID: ${{ f603c028-f9a0-45a1-8131-6e15458f1e74 }}
       AZURE_TENANT_ID: ${{ bee29138-c48d-48ef-8133-9a68070b7096 }}
-      AZURE_SUBSCRIPTION_ID: ${{ vars.AZURE_SUBSCRIPTION_ID }}
+      AZURE_SUBSCRIPTION_ID: ${{ bfa39d86-1058-4824-8074-e9d283d6c321 }}
       AZURE_ENV_NAME: ${{ vars.AZURE_ENV_NAME }}
       AZURE_LOCATION: ${{ vars.AZURE_LOCATION }}
     steps:
