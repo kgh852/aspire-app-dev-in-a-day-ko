@@ -76,9 +76,3 @@ jobs:
         shell: pwsh
         env:
           AZURE_CREDENTIALS: ${{ secrets.AZURE_CREDENTIALS }}
-
-      - name: Deploy Application
-        run: |
-          pushd ./workshop
-          azd deploy --no-prompt
-          popd
