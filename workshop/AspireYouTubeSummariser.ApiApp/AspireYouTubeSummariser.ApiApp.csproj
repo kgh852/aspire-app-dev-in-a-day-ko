@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <InvariantGlobalization>true</InvariantGlobalization>
-
+    <EnableSdkContainerSupport>true</EnableSdkContainerSupport>
     <AssemblyName>AspireYouTubeSummariser.ApiApp</AssemblyName>
     <RootNamespace>AspireYouTubeSummariser.ApiApp</RootNamespace>
   </PropertyGroup>
